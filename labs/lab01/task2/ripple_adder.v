@@ -23,6 +23,7 @@ module ripple_adder(
   output       cout
 );
 
+
   wire c1, c2, c3;
 
   FA_Gate FA0 (.a(a[0]), .b(b[0]), .cin(cin), .sum(sum[0]), .cout(c1));
