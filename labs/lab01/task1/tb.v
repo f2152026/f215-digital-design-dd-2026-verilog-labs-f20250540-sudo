@@ -9,6 +9,7 @@ module tb;
 
 
 
+
   FA_Gate DUT (
     .a    (t_a),
     .b    (t_b),
