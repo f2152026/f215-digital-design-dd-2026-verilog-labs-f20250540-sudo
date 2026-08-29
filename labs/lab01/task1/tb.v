@@ -8,6 +8,7 @@ module tb;
   wire t_sum, t_cout;
 
 
+
   FA_Gate DUT (
     .a    (t_a),
     .b    (t_b),
