@@ -19,6 +19,7 @@ module tb;
     .sum  (t_sum),
     .cout (t_cout)
   );
+  
 
   // Waveform dump configuration
   string vcd_file;
