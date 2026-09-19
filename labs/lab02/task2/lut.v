@@ -13,6 +13,7 @@ module lut #(
   reg [WIDTH-1:0] mem [0:DEPTH-1];
 
   integer i;
+  
 
   initial begin
     for (i = 0; i < DEPTH; i = i + 1)
