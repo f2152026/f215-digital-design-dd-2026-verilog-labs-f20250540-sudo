@@ -7,6 +7,8 @@ module tb;
   reg  t_a, t_b, t_cin;
   wire t_sum, t_cout;
 
+
+
   FA_Gate DUT (
     .a    (t_a),
     .b    (t_b),
@@ -40,3 +42,4 @@ module tb;
     $monitor($time, " a=%b b=%b cin=%b | sum=%b cout=%b", t_a, t_b, t_cin, t_sum, t_cout);
 
 endmodule
+   
